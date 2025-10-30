@@ -5,7 +5,7 @@ import ItchEmbed from "./ItchEmbed";
 
 const games = [
     {
-        url: "https://itch.io/embed-upload/15392115",
+        url: "https://itch.io/embed-upload/15398315",
         thumb: "game1",
         height: '668px',
         width: '1152px',

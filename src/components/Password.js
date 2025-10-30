@@ -80,6 +80,7 @@ function Password() {
                   alt="Prize"
                   className="prize-image"
                 />
+                <p className="art-credit">art: <a href="https://x.com/KunoMD" target="_blank" rel="noopener noreferrer">kunoMD</a></p>
                 <p className="success-message">Happy Moguween MogChamp!</p>
                 <div className="modal-bottom-row">
                   <button
