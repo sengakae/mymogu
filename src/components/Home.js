@@ -12,7 +12,7 @@ const games = [
         title: 'Moguween Crane Game'
     }, 
     {
-        url: "https://itch.io/embed-upload/15397265",
+        url: "https://itch.io/embed-upload/15397506",
         thumb: "game2",
         height: '600px',
         width: '800px',
@@ -35,7 +35,7 @@ function Home() {
       />
       <div className="flex-games">
         {games.map((game, index) => (
-            <ItchEmbed key={index} iframeSrc={game.src} thumbnail={game.thumb} height={game.height} width={game.width} title={game.title} />
+            <ItchEmbed key={index} iframeSrc={game.url} thumbnail={game.thumb} height={game.height} width={game.width} title={game.title} />
         ))}
       </div>
       <button className="home-enter-btn" onClick={() => navigate("/password") }>
