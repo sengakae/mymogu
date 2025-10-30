@@ -3,7 +3,7 @@ import "./Home.css";
 import { useNavigate } from "react-router-dom";
 import ItchEmbed from "./ItchEmbed";
 
-const games = ["https://itch.io/embed-upload/15388939"];
+const games = ["https://itch.io/embed-upload/15392115"];
 
 function Home() {
   const navigate = useNavigate();
