@@ -12,7 +12,7 @@ const games = [
         title: 'Moguween Crane Game'
     }, 
     {
-        url: "https://itch.io/embed-upload/15397506",
+        url: "https://itch.io/embed-upload/15397558",
         thumb: "game2",
         height: '600px',
         width: '800px',
