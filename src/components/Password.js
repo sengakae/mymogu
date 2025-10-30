@@ -68,7 +68,7 @@ function Password() {
               onChange={(e) => handleChange(0, e.target.value)}
             />
           </div>
-          <button type="submit" className="submit-button">Submit</button>
+          <button type="submit" className="password-button">Submit</button>
           {error && <p className="error-message">{error}</p>}
         </form>
         {unlocked && (
@@ -96,7 +96,7 @@ function Password() {
                   >
                     Download
                   </button>
-                  <button className="close-button" onClick={closeModal}>Close</button>
+                  <button className="password-button close-button" onClick={closeModal}>Close</button>
                 </div>
               </div>
             </div>
