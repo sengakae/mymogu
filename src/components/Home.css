@@ -43,6 +43,12 @@
   outline: none;
 }
 
+.flex-games {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
 @media (max-width: 500px) {
   .home-title-img {
     width: 95vw;

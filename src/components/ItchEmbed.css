@@ -44,8 +44,6 @@
 }
 
 .itch-modal-content iframe {
-  width: 1152px;
-  height: 668px;
   max-width: 93vw;
   max-height: 80vh;
   border: none;

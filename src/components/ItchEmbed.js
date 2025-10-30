@@ -2,31 +2,32 @@ import React, { useState } from 'react';
 import './ItchEmbed.css';
 import { createPortal } from 'react-dom';
 
-const ItchModal = ({ iframeSrc, onClose }) =>
+const ItchModal = ({ title, iframeSrc, height, width, onClose }) =>
   createPortal(
     <div className="itch-modal-overlay" onClick={onClose}>
       <div className="itch-modal-content" onClick={e => e.stopPropagation()}>
         <iframe
           src={iframeSrc}
-          title="Mogu Crane Game"
+          style={{ height, width }}
+          title={title}
         />
       </div>
     </div>,
     document.body
   );
 
-const ItchEmbed = ({ iframeSrc }) => {
+const ItchEmbed = ({ iframeSrc, thumbnail, height, width, title }) => {
   const [open, setOpen] = useState(false);
   return (
     <div className="itch-embed-container">
       <img
-        src="/images/crane_thumb.png"
-        alt="Open Mogu Crane Game"
+        src={`/images/thumbnails/${thumbnail}.png`}
+        alt={`Open ${title}`}
         className="itch-thumb-img"
         onClick={() => setOpen(true)}
         style={{ cursor: 'pointer' }}
       />
-      {open && <ItchModal iframeSrc={iframeSrc} onClose={() => setOpen(false)} />}
+      {open && <ItchModal title={title} iframeSrc={iframeSrc} height={height} width={width} onClose={() => setOpen(false)} />}
     </div>
   );
 };
