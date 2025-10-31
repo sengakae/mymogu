@@ -9,7 +9,6 @@
   width: 320px;
   max-width: 90vw;
   border-radius: 16px;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.4);
   transition: filter 0.2s;
 }
 .itch-thumb-img:hover {
@@ -22,7 +21,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,0,0.75);
+  background: rgba(0, 0, 0, 0.75);
   z-index: 1500;
   display: flex;
   justify-content: center;
@@ -33,7 +32,7 @@
 .itch-modal-content {
   background: #222;
   border-radius: 16px;
-  box-shadow: 0 6px 48px rgba(0,0,0,0.90);
+  box-shadow: 0 6px 48px rgba(0, 0, 0, 0.9);
   padding: 0.5rem;
   max-width: 100vw;
   max-height: 95vh;
@@ -60,6 +59,10 @@
 }
 
 @keyframes fadeIn {
-  from { opacity: 0 }
-  to   { opacity: 1 }
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
