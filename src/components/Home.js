@@ -5,18 +5,25 @@ import ItchEmbed from "./ItchEmbed";
 
 const games = [
     {
-        url: "https://itch.io/embed-upload/15398315",
+        url: "https://itch.io/embed-upload/15402893",
         thumb: "game1",
-        height: '668px',
         width: '1152px',
+        height: '668px',
         title: 'Moguween Crane Game'
     }, 
     {
-        url: "https://itch.io/embed-upload/15397580",
+        url: "https://itch.io/embed-upload/15402901",
         thumb: "game2",
-        height: '600px',
         width: '800px',
+        height: '600px',
         title: 'Moguween Snake Game'
+    },
+    {
+      url: "https://itch.io/embed-upload/15403134",
+      thumb: "game3",
+      width: '960px',
+      height: '600px',
+      title: 'Moguween Flapping Bird'
     }];
 
 function Home() {

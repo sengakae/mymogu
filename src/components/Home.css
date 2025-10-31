@@ -5,6 +5,8 @@
   flex-direction: column;
   align-items: center;
   position: relative;
+  justify-content: center;
+  gap: 6rem;
 }
 
 .home-title-img {
@@ -15,10 +17,9 @@
 }
 
 .home-enter-btn {
-  margin-top: auto;
-  margin-bottom: 20vh;
   border: none;
-  background: transparent;
+  border-radius: 2rem;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
   cursor: pointer;
   outline: none;
   display: flex;
@@ -29,10 +30,9 @@
 .home-enter-btn-img {
   position: relative;
   z-index: 2;
-  max-width: 80vw;
+  max-width: 70vw;
   height: auto;
   transition: filter 0.2s;
-  box-shadow: 0 6px 24px rgba(0,0,0,0.35);
 }
 
 .home-enter-btn:hover .home-enter-btn-img {
@@ -52,8 +52,5 @@
 @media (max-width: 500px) {
   .home-title-img {
     width: 95vw;
-  }
-  .home-enter-btn-img {
-    max-width: 90vw;
   }
 }
