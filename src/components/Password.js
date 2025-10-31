@@ -16,7 +16,7 @@ function Password() {
   const [unlocked, setUnlocked] = useState(false);
   const [error, setError] = useState("");
   const [prizeType, setPrizeType] = useState("");
-  const correctCodes = ["STOCKINGGHOST", "FALLENGHOST"];
+  const correctCodes = ["STOCKING", "FALLEN"];
 
   const handleChange = (index, value) => {
     const newCodes = [...codes];
