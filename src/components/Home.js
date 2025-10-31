@@ -5,21 +5,21 @@ import ItchEmbed from "./ItchEmbed";
 
 const games = [
     {
-        url: "https://itch.io/embed-upload/15402893",
-        thumb: "game1",
-        width: '1152px',
-        height: '668px',
-        title: 'Moguween Crane Game'
+      url: "https://itch.io/embed-upload/15402893",
+      thumb: "game1",
+      width: '1152px',
+      height: '668px',
+      title: 'Moguween Crane Game'
     }, 
     {
-        url: "https://itch.io/embed-upload/15402901",
-        thumb: "game2",
-        width: '800px',
-        height: '600px',
-        title: 'Moguween Snake Game'
+      url: "https://itch.io/embed-upload/15402901",
+      thumb: "game2",
+      width: '800px',
+      height: '600px',
+      title: 'Moguween Snake Game'
     },
     {
-      url: "https://itch.io/embed-upload/15403134",
+      url: "https://itch.io/embed-upload/15406403",
       thumb: "game3",
       width: '960px',
       height: '600px',
