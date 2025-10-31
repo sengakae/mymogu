@@ -19,7 +19,7 @@ const games = [
       title: 'Moguween Snake Game'
     },
     {
-      url: "https://itch.io/embed-upload/15406757",
+      url: "https://itch.io/embed-upload/15406843",
       thumb: "game3",
       width: '960px',
       height: '600px',
