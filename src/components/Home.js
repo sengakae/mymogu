@@ -5,7 +5,7 @@ import ItchEmbed from './ItchEmbed';
 
 const games = [
   {
-    url: 'https://itch.io/embed-upload/15402893',
+    url: 'https://itch.io/embed-upload/15411600',
     thumb: 'game1',
     width: '1152px',
     height: '668px',
@@ -19,7 +19,7 @@ const games = [
     title: 'Moguween Snake Game',
   },
   {
-    url: 'https://itch.io/embed-upload/15411396',
+    url: 'https://itch.io/embed-upload/15411607',
     thumb: 'game3',
     width: '960px',
     height: '600px',
